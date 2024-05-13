@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bg-color: rgb(233, 203, 253);
+    --section-color:rgb(255, 255, 255);
+    --font: "Comic Neue", cursive;
+}
+
+body {
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+}
+
+section.centro{
+    width: 500px;
+    height: 500px;
+    background-color: var(--section-color);
+    border-radius: 10px;
+}
+
+div.titulo h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+}
+
+div.formulario {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+input#texto {
+    padding: 3px;
+    margin-left: 10px;
+    outline: none;
+    border-color: var(--bg-color);
+    border-radius: 10px 2px;
+
+}
+
+
+button{
+    background-color: var(--bg-color);
+    color: rgb(255, 255, 255);
+    font-family: var(--font);
+    font-weight: 900;
+   padding: 0 5px;
+    height: 25px;
+    border-style: none;
+    border-radius: 2px;
+
+}
+
+button:hover{
+    color: black;
+}
+
+div.resultado{
+    margin-left: 125px;
+    padding: 20px 0px;
+
+
+}
+
+li{
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    
+}
